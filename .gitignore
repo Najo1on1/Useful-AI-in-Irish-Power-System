@@ -1,0 +1,30 @@
+# --- Data & Large Files (Crucial) ---
+*.csv
+*.h5
+*.zarr
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# --- Python & Environments ---
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific ---
+# Exclude the 'files' folder if it contains raw data
+files/
+# Exclude Optuna study databases if they are local
+*.db

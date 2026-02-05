@@ -1,0 +1,30 @@
+# --- Core Data Handling & Numerical Operations ---
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.12.0
+h5py==3.10.0
+zarr==2.17.0
+
+# --- Deep Learning & Forecasting Frameworks (Phase A) ---
+torch==2.2.1
+pytorch-lightning==2.2.1
+pytorch-forecasting==1.0.0
+optuna==3.6.1
+
+# --- Machine Learning & Anomaly Detection (Phase B) ---
+scikit-learn==1.4.1.post1
+xgboost==2.0.3
+pyod==1.1.3
+statsmodels==0.14.1
+arch==6.3.0
+
+# --- Visualization & Plotting ---
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# --- Utilities & Feature Engineering ---
+joblib==1.3.2
+boto3==1.34.51
+requests==2.31.0
+tqdm==4.66.2
+python-dateutil==2.8.2
