@@ -26,7 +26,7 @@ These notebooks handle the ingestion and alignment of disparate datasets spannin
 
 ### 2. Bayesian Forecasting (Phase A)
 
-* **`Forecaster_notebook.ipynb` (nb1_1)**:
+* **`Forecaster_notebook.ipynb`**:
 * **Feature Engineering**: Implements cyclical encodings and walk-forward cross-validation.
 * **Model**: Defines a Deep LSTM with Monte Carlo (MC) Dropout active during inference.
 * **Uncertainty Quantification**: Generates calibrated 80% and 95% confidence intervals based on 50 stochastic forward passes per prediction.
@@ -35,7 +35,7 @@ These notebooks handle the ingestion and alignment of disparate datasets spannin
 
 ### 3. Anomaly Detection (Phase B)
 
-* **`Anomaly_Detection_notebook.ipynb` (nb1_2)**:
+* **`Anomaly_Detection_notebook.ipynb`**:
 * **Residual Generation**: Calculates the delta between actual net-load and the Bayesian forecast mean.
 * **Unsupervised Learning**: Implements and compares four detection methodologies:
 * -Thresholding (Baseline)
@@ -71,5 +71,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## ✍️ Author
 
 **Jonathan Muwanguzi** MSc in Artificial Intelligence & Machine Learning
+
 
 University of Limerick
